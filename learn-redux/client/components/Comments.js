@@ -3,7 +3,7 @@ import React from 'react';
 const Comments = React.createClass({
   render() {
     return (
-      <div className="comment"></div>
+      <div className="comment">Comment goes here</div>
     )
   }
 });
