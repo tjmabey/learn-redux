@@ -7,7 +7,17 @@
 // modify state
 // return state
 
+function postComments(state=[], action) {
+  return state;
+}
+
 function comments(state=[], action) {
+  if (typeof action.postId !== 'undefined') {
+    return {
+      ...state,
+      ///vid 16
+    }
+  }
   return state;
 }
 
